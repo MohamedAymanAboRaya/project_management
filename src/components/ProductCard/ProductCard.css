@@ -1,0 +1,42 @@
+.product-card {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.product-card p {
+  margin: 10px 0;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.update-btn {
+  background-color: #ffeb3b;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sale-badge {
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
